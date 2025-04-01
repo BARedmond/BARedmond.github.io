@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bryce Redmond - Projects</title>
+    <link rel="shortcut icon" href="/assets/Me.jpg">
+    <link rel="stylesheet" href="/code/mainCSS.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <style>
+        #website {
+            display: flex;
+        }
+        #zipCodeMap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap; 
+        }
+
+        #zipCodeText {
+            order: 1;
+            min-width: 50%;
+        }
+
+        #zipCodePng {
+            max-width: 50%;
+            order: 2;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19);
+        }
+
+        #tracker {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+
+        #trackerText {
+            order: 1;
+            min-width: 50%;
+        }
+
+        #trackerImg {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;  
+            flex-wrap: wrap;
+            width: 100%;
+            order: 2;
+            
+        }        
+
+        #trackerAsset {
+            justify-content: center;
+            min-width: 250px; 
+            max-width: 27%; 
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-bottom: 3%;  
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19);
+        }
+
+        #futureHome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #futureHomeText {
+            order: 1;
+        }
+
+        #stockCapeCod {
+            max-width: 50%;
+            order: 2;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19);
+        }
+
+        #cylinderBlock {
+            /*To make this similar to how the porch picture interacts, change flex direction to row and delete align-items*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center; 
+        }
+
+        #cylinderBlockText {
+            order: 1;
+            padding-right: 10px;
+            flex: 1 1 60%; 
+        }
+
+        #cylinderBlockImg {
+            min-width: 150px; 
+            max-width: 50%;
+            order: 2;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19);
+            flex: 1 1 8cm;  
+        }
+
+        #ductTape {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10px;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+
+        #ductTapeText {
+            padding-right: 10px;
+            order: 1;
+        }
+
+        #ductTapeImg {
+            max-width: 50%;
+            order: 2;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19);
+        }
+
+       
+
+
+    </style>
+</head>
+
+<body>
+    <header Class="container1">
+        <div Class="container3">
+            <img id="picture" src="/assets/Me.jpg" alt="A picture of Bryce Redmond">
+        </div>
+        <div Class="container4">
+            <div id="quote" Class="container5">
+                <div id="sidequote">
+                    "There is safety in small beginnings and there is unlimited capital in the experience gained by
+                    growing."
+                    </br>
+                    -Henry Ford
+                </div>
+            </div>
+            <nav id="header-nav" Class="container6">
+                <button Class="menu-bars" onclick="getMenu()">
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="bar3"></div>
+                </button>
+                <ul id="header-list">
+                    <li><a Class="navig" href="../">About Me</a></li>
+                    <li><a Class="navig" href="/pages/workEducation.html">Work and Education</a></li>
+                    <li><a Class="navig" href="/pages/projects.html">Projects</a></li>
+                    <li><a Class="navig" href="/pages/peopleThings.html">People and Things</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="main" Class="container2">
+        <div id="sidebar" Class="container7"></div>
+        <div Class="container8">
+            <div id="main-text">
+
+                <h1>This Website</h1>
+                <div id="website">
+                    <p id="websiteText">I have put a lot of time into creating this website. I originally was going to
+                        use WordPress drag & drop templates, but after discovering that it is not as easy as it seemed,
+                        I figured I should just take the time to learn HTML, CSS, and Javascript. Progress has been slow
+                        and frustrating at times, but it has been a great project to keep me occupied.</p>
+                </div>
+            
+                <h1>Zip Code Map</h1>
+                <div id="zipCodeMap">
+                    <p id="zipCodeText">My job as a package handler at Fedex Ground required me to scan each package and
+                        sort it according to its destination trailer. It is fast paced, and can be made more efficient
+                        if scanning is eliminated. Over time, I familiarized myself with every trailer destination and
+                        the zip codes of the surrounding areas. As a result, I was able to correctly sort over 95% of
+                        the packages that came through entirely without a scanner. I was dedicated to helping others learn zipcodes as well, and I
+                        set out to find the best way to teach. Using photoshop, I created this map that shows a visual
+                        representation of the area's destinations and the zipcodes that went to that trailer.</p>
+                    <img id="zipCodePng" Class="generalImages" src="/assets/zipcodemap.png"
+                        alt="The zipcode map that I created using photoshop to help others increase their efficiency.">
+                </div>
+                
+                <h1>"Tracker"</h1>
+                <div id="tracker">
+                    <p id="trackerText">After becoming a manager, it didn't take long before I realized I would need to find a way to stay organized throughout the day. I started with a 7 pocket accordian binder... and swiftly upgraded to the 13 pocket. I still needed a way to organize my thoughts, however. After creating several drafts, I finally iterated to the current design of my "Tracker." Incidentally, after a year of use, the file name is still "In Progress Tracker." I figured I'd end up changing more, but the design has worked very well for me.</p>
+                    <div id="trackerImg">
+                    <img id="trackerAsset" Class="generalImages" src="/assets/Tracker/tracker.jpg"
+                        alt="The job aide that I created to organize my thoughts throughout the day.">
+                    <img id="trackerAsset" Class="generalImages" src="/assets/Tracker/EX2.jpg" alt="An example of the way that I use my tracker, demonstrating every section being used for its inteded purpose.">
+                    <img id="trackerAsset" Class="generalImages" src="/assets/Tracker/EX3.jpg" alt="Another example of the way that I use my tracker; the time I needed someone else to set up the area.">    
+                    </div>
+                </div>
+
+                <h1>Future Home</h1>
+                <div id="futureHome">
+                    <p id="futureHomeText">My eventual goal is to own a home without locking myself into a mortgage. I
+                        would love to build my own home, but doing this without a loan means the home would have to be
+                        quite small. My home should start off small, but as I accumulate more money, the home
+                        should be easily added onto. It requires me to decide what is truly necessary and to design with
+                        renovations in mind. </br>
+                        I started out by jumping straight into the project using Chief Architect. It was easy to figure out how to do things like create rooms and add dormers to a gable roof, but I realized I didn't really "know" the program. I then decided that Revit would be a better program to learn and that I should actually LEARN IT before jumping straight into my project. That's where I am at right now; teaching myself good practices, such as schematic design, levels, scheduling, and drawing sets.  </p>
+                    <img id=stockCapeCod Class="generalImages"
+                        src="https://rdcnewsadvice.wpengine.com/wp-content/uploads/2017/01/cape-cod-house.jpg"
+                        alt="This is fairly similar to the home I would start out building. The Cape Cod still looks great when added on to">
+                </div>
+            
+                <h1>Cylinder Block</h1>
+                <div id="cylinderBlock">
+                    <p id="cylinderBlockText">The best project I completed in school was this air motor cylinder block. I gained experience
+                        using the Brideport End Mill, lathe, and CNC machining. At the end of the semester, we connected
+                        6 cylinders and let it run.</p>
+                    <img id="cylinderBlockImg" Class="generalImages" src="/assets/cylinderBlock.jpg" alt="This is an image of the cylinder block that I manufactured as a part of ME 2900.">
+                </div>
+            
+                <h1>Duct Tape Ohio</h1>
+                <div id="ductTape">
+                    <p id="ductTapeText">Since middle school, I have been talented when working with duct tape. This is
+                        the project that I am most proud of. It is the classic photo every group of Ohioans takes on
+                        vacation with, noneother than, the magnificent Tom W Davis Clocktower as the I. A lot of time
+                        went into planning it out and executing and it hangs up in my living room.</p>
+                    <img id="ductTapeImg" Class="generalImages" src="/assets/clockTower.jpg"
+                        alt="The classic picture that Ohioans always take on vacation in duct tape form. Noneother than the Tom W Davis Clocktower serves as the I.">
+                </div>
+            </div>
+            <footer id="footer-element" Class="container9"></footer>
+        </div>
+    </div>
+    <div Class="testSide">
+        <div Class="container10">
+            <img id="flag" Class="sidebarObject" src="/assets/OhioFlagTransparent1.png" alt="An image of the Ohio state flag, the true one of the kind flag.">
+            <div id="resume" Class="sidebarObject">
+                <div id="myResume">Check out my Resume!</div>
+                <a id="resumePDF" Class="blackLink" target="blank" href="/assets/BryceRedmondResume.pdf">My Resume</a>
+            </div>
+            <div id="sideform" Class="sidebarObject">
+                <div id="contactMe"> Contact Me!</div>
+                <form Class="formContent" method="post" action="/code/contactForm.php">
+                    <div Class="formGroup">
+                        <label for="Name" Class="formLabel">Your Name</label></label>
+                        <div Class="formInput">
+                            <input type="text" id="name" Class="formControl" name="name" required>
+                        </div>
+                    </div>
+
+                    <div Class="formGroup">
+                        <label for="Email" Class="formLabel">Email or Phone</label></label>
+                        <div Class="formInput">
+                            <input type="email" id="email" Class="formControl" name="email" required>
+                        </div>
+                    </div>
+
+                    <div Class="formGroup">
+                        <label for="Message" Class="formLabel">Your Message</label></label>
+                        <div Class="formInput">
+                            <textarea id="message" Class="formControl" name="message" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+
+                    <div Class="formGroup">
+                        <button type="submit" id="formButton">Send Message</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div Class="screenSize"></div>
+    <script src="/code/mainJS.js"></script>
+</body>
+
+</html>
+
