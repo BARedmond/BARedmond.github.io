@@ -1,12 +1,12 @@
 ---
 layout: default
 modal-id: 2
-title: FedEx Zip Code Map
+title: Fasces: An American Symbol
 date: 
-img: zipcodemap.png
+img: cake.png
 alt: image-alt
-project-date: May 2019
+project-date: December 2023
 client: 
 category: 
-description: My job as a package handler at Fedex Ground required me to scan each package and sort it according to its destination trailer. It is fast paced, and can be made more efficient if scanning is eliminated. Over time, I familiarized myself with every trailer destination and the zip codes of the surrounding areas. As a result, I was able to correctly sort over 95% of the packages that came through entirely without a scanner. I was dedicated to helping others learn zipcodes as well, and I set out to find the best way to teach. Using photoshop, I created this map that shows a visual representation of the area's destinations and the zipcodes that went to that trailer.
+description: As a Christmas gift, I made a fasces. The fasces is an American symbol derived from ancient Rome. It consists of a bundle of rods/sticks, usually surrounding an axe/hatchet. It symbolizes collective strength, as a single rod is easy to break, but when bound together, the group is much stronger. The axe further symbolizes that this collective is not to be messed with. The fasces can be seen everywhere in American iconography, from official seals, monuments, and to architecture. The fasces is proudly shown in the US House of Representatives, directly behind the Speaker of the House. In Columbus, it can be seen from all sides carved into the stone at the top of LeVeque Tower, an art deco style skyscraper built in 1927, and in Cincinnati is a statue depicting the Ancient Roman leader, Lucius Quinctius Cincinnatus (for whom the city is named) with his plow in one hand, and the other outstretched, presenting a fasces. 
 ---
