@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+date: 
+img: zipcodemap.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: May 2019
+client: 
+category: 
+description: My job as a package handler at Fedex Ground required me to scan each package and sort it according to its destination trailer. It is fast paced, and can be made more efficient if scanning is eliminated. Over time, I familiarized myself with every trailer destination and the zip codes of the surrounding areas. As a result, I was able to correctly sort over 95% of the packages that came through entirely without a scanner. I was dedicated to helping others learn zipcodes as well, and I set out to find the best way to teach. Using photoshop, I created this map that shows a visual representation of the area's destinations and the zipcodes that went to that trailer.
 ---
