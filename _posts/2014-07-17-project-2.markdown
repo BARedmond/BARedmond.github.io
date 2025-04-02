@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 2
+title: FedEx Zip Code Map
 date: 
 img: zipcodemap.png
 alt: image-alt
