@@ -49,7 +49,7 @@ hr.star-primary {
 
     hr.star-light:after,
     hr.star-primary:after {
-        content: url("C:\Users\Leopa\OneDrive\Documents\Github\BARedmond.github.io\img\star-13.svg"); /*"\f005";*/
+        content: url(star-13.svg); /*"\f005";*/
         display: inline-block;
         position: relative;
         top: -.8em;
