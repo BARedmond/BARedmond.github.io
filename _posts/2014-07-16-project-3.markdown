@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 title: FedEx Zip Code Map
-date: 
+date: 2014-07-18
 img: zipcodemap.png
 alt: image-alt
 project-date: May 2019

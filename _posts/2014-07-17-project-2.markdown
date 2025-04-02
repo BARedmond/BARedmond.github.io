@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 title: Fasces: An American Symbol
-date: 
+date: 2014-07-18
 img: cake.png
 alt: image-alt
 project-date: December 2023
