@@ -47,16 +47,16 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
+    hr.star-light:after,
+    hr.star-primary:after {
+        content: url( '"C:\Users\Leopa\OneDrive\Documents\Github\BARedmond.github.io\img\star-13.svg"' ); /*"\f005";*/
+        display: inline-block;
+        position: relative;
+        top: -.8em;
+        padding: 0 .25em;
+        font-family: FontAwesome;
+        font-size: 2em;
+    }
 
 hr.star-light {
     border-color: #fff;
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     /*color: #fff;*/
-    /*background: #{{ site.color.primary }};*/
+    /*888888888888888+-+background: #{{ site.color.primary }};*/
 }
 
 @media(max-width:767px) {
