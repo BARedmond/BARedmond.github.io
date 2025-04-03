@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-title: Fasces: An American Symbol
+title: Creating a Fasces
 date: 2014-07-18
 img: cake.png
 alt: image-alt
