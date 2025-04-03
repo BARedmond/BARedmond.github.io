@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 4
+title: Duct Tape Artwork
 date: 2014-07-15
-img: game.png
+img: clockTower.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: November 2018
+client: 
+category: 
+description: Since middle school, I have been making artwork out of duct tape. For my first couple years at Ohio State, the brand new "Tom W Davis" Clocktower was a highly memed on. Many thought it was a waste of money and many disliked the large, bright LCD screen. I had a large undecorated wall, so I decided to honor this clocktower by turning it into artwork. Along with this, I have made many other duct tape art pieces, mostly as Christmas gifts. The process involves creating a design in Photoshop, printing it out at 1:1 scale, then clear taping the paper over the respective color tape and cutting it out. These are then pieced together like a puzzle, and can get very intricate.
 ---
