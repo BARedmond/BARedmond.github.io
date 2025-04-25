@@ -3,7 +3,7 @@ layout: default
 title: My Cape Cod House Build
 modal-id: 7
 date: 2014-07-18
-img: house_profile_.jpg
+img: house_profile.jpg
 alt: image-alt
 project-date: July 2024 - Current
 client: 
