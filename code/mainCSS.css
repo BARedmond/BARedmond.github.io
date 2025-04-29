@@ -1,0 +1,352 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background-color: rgb(86, 86, 92);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-height: min-content;
+    width: 100%;
+    flex-shrink: 2;
+    background-color: silver;
+    z-index: 2; 
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex: 1 1; 
+    background-color: blue;
+    min-height: min-content; 
+    /*height: 100%;*/
+}
+.container3 {
+    /*Flex item*/
+    /*max-height: 100%;
+    max-width: max-content;
+    flex: 0 0 auto;*/
+    order: 1; 
+    background-color: black;
+}
+#picture {
+    /*max-height: 100%;
+    max-width: 100%;*/
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    height: 100%;
+    width: 100%; 
+    /*background-color: purple;*/
+}
+.container5 {
+    /*Flex item*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    /*background-color: green;*/
+    text-align: center;
+    font-size: medium;
+    margin: 0px 22% 0px 22%;
+    flex: 1 1 auto;
+}
+.container6 {
+    /*Flex item*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: min-content;
+    width: 100%;
+    background-color: rgb(249, 87, 0, .9);
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+}
+.menu-bars {
+    display: none;
+    margin-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.menuBarsToggle {
+    margin-left: auto;
+    order: 2;
+}
+#bar1,
+#bar2,
+#bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+#header-list {
+    display: flex;
+    list-style-type: inherit;
+}
+.navig {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    width: min-content;
+    text-align: center;
+    box-align: center;
+    font-size: larger; 
+}
+.headerListToggle {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+}
+.generalImages {
+    object-fit: contain; 
+}
+.container7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    max-width: 180px;
+    /*background-color: hsl(192, 100%, 40%); */
+    background-color: silver;
+    order: 2;
+    
+    
+     
+
+}
+.testSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    width: 180px;
+    height: 100%; 
+    position: fixed;
+    right: 0; 
+    background-color: green; 
+    z-index: 1; 
+}
+.container10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 30px; 
+    background-color: silver; 
+    width: 100%;
+    height: 100%; 
+}
+.text {
+    font-size: 12px;
+    margin: 5px 5px 5px 5px;
+}
+#sidequote {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px 5px 5px 5px;
+    font-size: medium; 
+}
+
+.blackLink { 
+    color: black; 
+}
+
+.sidebarObject {
+    /*display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    flex-wrap: wrap;*/
+    /*margin-top: 100px;*/  
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+    /*padding-left: 10px;
+    padding-right: 10px;*/ 
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: black;*/
+    /*margin: 5px 5px 20px 5px;*/
+    /*height: auto;*/
+    font-size: medium;
+    width: 90%;
+}
+.topName {
+    /*margin: 0px 100px 0px 0px; */
+    position: fixed;
+    left: 10px;
+    font-size: larger; 
+}
+.container8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #efefef;
+    width: 100%;
+    order: 1;
+    flex: 1 1; 
+    text-align: center;
+}
+#main-text {
+    font-size: medium;
+    padding: 10px 10px 10px 10px;
+    /*text-align: justify;*/
+}
+.container9 {
+    /*Flex item*/
+    /*height: 20%;*/
+    min-height: 30px;
+    width: 100%;
+    background-color: silver;
+    order: 3;
+}
+.formControl {
+    box-sizing: border-box;
+    width: 100%;
+}
+#flag {
+    display: none; 
+}
+
+#myResume {
+    font-weight: bold; 
+}
+#contactMe {
+    font-weight: bold; 
+    order: 1;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+/*p {
+    
+}*/
+.sticky-header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(249, 87, 0, .95);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .19); 
+}
+.sticky-sidepanel {
+    /*position: fixed;
+    font-size: small;
+    top: 60px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 180px;*/
+    width: 90%;
+    font-size: medium; 
+    /*margin-top: 100px;*/ 
+}
+.smallScreenSideform {
+    margin: 2% auto 2% auto; 
+}
+.screenSize {
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.pictureGridHover {
+    display: block; 
+}
+@media screen and (max-height: 250px) {
+    .container7 {
+        display: none;
+    }
+    .testSide {
+        display: none; 
+    }
+} 
+@media screen and (max-width: 18cm) {
+    .screenSize {
+        background-color: rgb(1, 1, 1); 
+    }
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        height: min-content;
+    }
+    .container3 {
+        display: none;
+    }
+    .container4 {
+        width: 100%;
+        height: min-content;
+        position: absolute;
+        overflow: auto;
+    }
+    .container5 {
+        display: none;   
+    }
+    .conainter6 {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .container7 {
+        display: none;
+    }
+    .testSide {
+        display: none; 
+    }
+    #main-text {
+        padding-top: 50px; 
+    }
+}
+@media screen and (max-width: 14cm) {
+    .screenSize {
+        background-color: rgb(2, 2, 2); 
+    }
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+    .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+
