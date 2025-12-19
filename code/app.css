@@ -1,4 +1,6 @@
-﻿html{
+﻿/*BARedmond*/
+
+html{
     margin: 0px;
     padding: 0px;
 }
@@ -94,6 +96,20 @@ scroll-page, #about, #home-build, #projects {
     flex-direction: column;
 }
 
+.framed {
+    border: 8px double var(--brand-gold);
+    padding: 4px;
+    /* background-color: var(--brand-gold); */
+    box-shadow: inset 0 0 10px #ccc;
+}
+
+.homebuildpics {
+    min-width: 320px;
+    width: 30vw;
+    height: auto;
+   
+}
+
 #home-build {
     justify-content: center;
     background-color: #f1f1f1;
@@ -123,6 +139,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .flex-projects {
@@ -152,7 +169,7 @@ footer {
 }
 
 .flex-container > div {
-    background-color: #f0e3da;
+   /* background-color: #f0e3da;*/
     margin: 10px;
     padding: 20px;
     font-size: 30px;
