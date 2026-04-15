@@ -3,82 +3,187 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Bryce A Redmond</title>
+    <title>Bryce A Redmond - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="code/app.css" />
     <link rel="icon" href="assets/star-13.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="header-nav">
-        <button Class="menu-bars" onclick="getMenu()">
-            <div id="bar1"></div>
-            <div id="bar2"></div>
-            <div id="bar3"></div>
-        </button>
+        <!--<button Class="menu-bars" onclick="getMenu()">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+        <div id="bar3"></div>
+    </button>-->
         
-      
 
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="house.html">Home Build</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li id="nav-icon"><a style="height:100%; padding: 0; display:flex; align-items:center;" href="index.html"> <svg id="icon-stars" width="auto" height="80%" version="1.1" viewBox="0 0 73.543 73.007" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(-114.12 -114.99)"><g transform="matrix(.26458 0 0 .26458 21.719 60.466)"><g transform="matrix(.5 0 0 .5 -55.639 9.7368)" ><g transform="translate(1087.7 672.71)"><path id="Star" transform="matrix(.047 0 0 .047 0 -233)" d="m0-1e3 -587.79 1809 1538.8-1118h-1902.1l1538.8 1118z" /><g id="Stars4"><use transform="rotate(27.692)" width="100%" height="100%" xlink:href="#Star" /><use transform="rotate(55.385)" width="100%" height="100%" xlink:href="#Star" /><use transform="rotate(83.077)" width="100%" height="100%" xlink:href="#Star" /><use transform="rotate(110.77)" width="100%" height="100%" xlink:href="#Star" /></g><use transform="rotate(110.77)" width="100%" height="100%" xlink:href="#Stars4" /><use transform="rotate(221.54)" width="100%" height="100%" xlink:href="#Stars4" /></g></g></g></g></svg></a></li>
+            <li><a class="active nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="house.html">Home Build</a></li>
+            <li><a class="nav-link" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" href="hireme.html">Hire Me</a></li>
+
             <!--<li><a href="interests.html">Interests</a></li>-->
         </ul>
-            
+
+
+
+
     </nav>
+
     <section id="scroll-page">
         <div id="about">
-            <img src="assets/profile_pic.png" alt="Bryce Redmond on a hike at Mt Hood" id="profile_pic" />
-            <h1>Bryce A Redmond</h1>
-            <p id="introText">I am a 27 year old man who grew up in the Columbus suburbs but moved to Southeast Ohio several years ago. I graduated from The Ohio State University in 2021 with a Bachelors Degree in Mechanical Engineering. Throughout my time in college, I worked every weeknight as a Package Handler at the Columbus FedEx Ground hub. I enjoyed the job and for my final two semesters, I was promoted to an Operations Manager role, where I discovered my love of polo shirts and greatly improved my ability to be a part of and lead a team. It was during this time that I set my sights on someday building my own house, and I am now finally following through. From designing the home in AutoCAD and Revit, to building it with nail guns and circular saws, I have done everything on my own; with some help from my dad. You can see pictures and read about my progress here, and I've included some of my various other projects, as well.</p>
+            <!--<div style="width:40vw;">-->
+            <!--Image Carousel
+         <div class="carousel">
+             <div class="carousel-track" id="carouselTrack">
+                 <div class="carousel-slide"><img src="assets/fasces.png" alt="Home 1"></div>
+                 <div class="carousel-slide"><img src="assets/zipcodemap.png" alt="Home 2"></div>
+                 <div class="carousel-slide"><img src="assets/flag.png" alt="Home 3"></div>
+             </div>
+             <div class="carousel-buttons">
+                 <button onclick="moveSlide(-1)">‹</button>
+                 <button onclick="moveSlide(1)">›</button>
+             </div>
+         </div>
+        End Image Carousel-->
+            <img id="profile_pic" src="assets/profile_pic.png" />
+            <h1 id="name">Bryce A Redmond</h1>
         </div>
+
+
+        <!---->
+
+
         <div class="background">
             <div id="home-build">
-                <h1>My Home Build</h1>
-                <p id="introText">In April of 2023, I found myself on the steps of the county courthouse for a tax sale. I was there for the first two properties, but after losing out on those and seeing no one bidding on the final property, I decided to take a chance. I didn't know what we were buying, but this is what awaited me. While others seemingly only saw problems, I realized the massive opportunity that had been gifted and decided to do something productive with it.</p>
+                <h1>About Me</h1>
+                <p id="">I am a 27 year old man who grew up in the Columbus suburbs but moved to Southeast Ohio several years ago. I graduated from The Ohio State University in 2021 with a Bachelors Degree in Mechanical Engineering. Throughout my time in college, I worked every weeknight as a Package Handler at the Columbus FedEx Ground hub. I enjoyed the job and for my final two semesters, I was promoted to an Operations Manager role, where I discovered my love of polo shirts and greatly improved my ability to be a part of and lead a team. It was during this time that I set my sights on someday building my own house, and I am now finally following through. From designing the home in AutoCAD and Revit, to building it with nail guns and circular saws, I have done everything on my own; with some help from my dad. You can see pictures and read about my progress here, and I've included some of my various other projects, as well.</p>
+                <!--<img class="framed" src="assets/house/house_15.jpg" alt="A current(ish) picture of my home progress." style="height: auto; width: 50%;" />
+    <a class="button1" href="about.html">Learn More About Me</a>-->
+            <div style="margin:40px;"></div>
+            </div>
+            </div>
+
+
+            <!---->
+
+
+            <div id="home-build">
+                <h1>My Cape Cod Home Build</h1>
+                <p id="">In April of 2023, I found myself on the steps of the county courthouse for a tax sale. I was there for the first two properties, but after losing out on those and seeing no one bidding on the final property, I decided to take a chance. I didn't know what I was buying, but this is what awaited me. While others seemingly only saw problems, I realized the massive opportunity that had been gifted and decided to do something productive with it.</p>
                 <div class="flex-container">
                     <div>
-                         <h2>Where I started</h2>
-                         <img class="framed homebuildpics" src="assets/house/house_18.jpg" alt="The original state of the property." />
+                        <h2>Where I Started</h2>
+                        <img class="framed homebuildpics" src="assets/house/house_18.jpg" alt="The original state of the property." />
                     </div>
-                    
                     <div>
-                        <h2>Where I Am Now</h2>
-                        <img class="framed homebuildpics" src="assets/house/house_17.jpg" alt="The original state of the property." />
-                       </div>
+                        <h2>Where I am Now</h2>
+                        <img class="framed homebuildpics" src="assets/house/house_25.jpg" alt="A current(ish) picture of my home progress." />
+                    </div>
                 </div>
+                <a class="button1" href="house.html">Learn More About My Build</a>
+            </div>
 
-                <a class="button1" href="house.html">See More</a>
+
+            <!---->
+
+
+            <div id="home-build">
+                <h1>My Projects</h1>
+                <p id="">Since I was young, I have aspired to be creative and ambitious. My home build is of course my most ambitious project, but I've worked on many smaller creative endeavors, often as Christmas gifts. I have plenty of ideas of projects to add to this page.</p>
+                <div class="flex-container">
+                    <div>
+                        <h2>Sewing and Embroidering an American Flag</h2>
+                        <div style="margin:5px 0;"></div>
+                         <a href="projects.html#flag"><img class="framed homebuildpics" src="assets/flag.png" alt="An American Flag that I sewed and embroidered from scratch." /></a>
+                    </div>
+                    <div>
+                        <h2>Building a Fasces</h2>
+                        <a href="projects.html#fasces"><img class="framed homebuildpics" src="assets/fasces.png" alt="A fasces I built." /></a>
+                    </div>
+                    <div>
+                        <h2>Creating Artwork with Duct Tape</h2>
+                        <a href="projects.html#ducttape"><img class="framed homebuildpics" src="assets/clocktower.jpg" alt="Ducttape artwork I made, featuring the Tom W Davis Clocktower." /></a>
+                    </div>
+                </div>
+                <a class="button1" href="projects.html">Learn More About My Projects</a>
             </div>
-        <div id="projects">
-            <h1>Other Projects</h1>
-            <div class="flex-container">
-                <div>
-                    <h2>Producing Building Plans for a New Home</h2>
-                    <a href="projects.html#buildingplans"><img src="assets/rutland_house_sheets/cover-sheet.png" alt="Cover sheet for a set of building plans I produced." class="portfolio" /></a>
+
+
+            <!---->
+
+
+            <div id="home-build">
+                <h1>Hire Me</h1>
+                <p id="">I am a very ambitious worker. I am always looking to learn more and improve efficiency. While pursuing my Mechanical Engineering degree, I worked for FedEx loading packages, and I always felt my job as a package handler kept me focused and disciplined. Once I graduated and started in the engineering world, I became a bit disenfranchised with the career, as I was meant to be designing buildings, but I had never actually built anything before. I felt I needed to take a step back and approach engineering in a more hands on, ground floor manner, and this is what drove me to build my own home; as a result, I am a better engineer. I am now ready to step back into an engineering role, and like with construction, I feel that my 5 years of experience as a Package Handler and Operations Manager uniquely positions me as a great fit for engineering positions within FedEx.</p>
+                <div class="flex-container">
+                    <div>
+                        <h2>Creating Job Aids for my Job at FedEx</h2>
+                        <a href="hireme.html#zipcode"><img class="framed homebuildpics" src="assets/zipcodemap.png" alt="Something I made to help productivity at my job at FedEx." /></a>
+                    </div>
+                    <div>
+                        <h2>Producing Building Plans for a New Home</h2>
+                        <a href="hireme.html#buildingplans"><img class="framed homebuildpics" src="assets/rutland_house_sheets/cover-sheet.png" alt="Cover sheet for a set of building plans I produced." /></a>
+                    </div>
                 </div>
-                <div>
-                    <h2>Sewing and Embroidering an American Flag</h2>
-                    <a href="projects.html#flag"><img src="assets/flag.png" alt="An American Flag that I sewed and embroidered from scratch." class="portfolio" /></a>
-                </div>
-                <div>
-                    <h2>Building a Fasces</h2>
-                    <a href="projects.html#fasces"><img src="assets/fasces.png" alt="A fasces I built." class="portfolio" /></a>
-                </div>
-                <div>
-                    <h2>Using Photoshop to Imporove Productivity at my Job</h2>
-                    <a href="projects.html#zipcode"><img src="assets/zipcodemap.png" alt="Something I made to help productivity at my job at FedEx." class="portfolio" /></a>
-                </div>
-                <div>
-                    <h2>Using Duct Tape to Create Art</h2>
-                    <a href="projects.html#ducttape"><img src="assets/clockTower.jpg" alt="Ducttape artwork I made, featuring the Tom W Davis Clocktower." class="portfolio" /></a>
+                <a class="button1" href="hireme.html">Learn More About My Previous Roles</a>
+            </div>
+
+
+            <!---->
+
+
+            
+            <!--<div id="home-build">
+        <h1>Our Long Term Plans</h1>
+        <img class="framed" src="assets/house/house_15.jpg" alt="A current(ish) picture of my home progress." style="height: auto; width: 50%;" />
+        <p id="">We understand that building new shiny homes doesn't do much good if there are still no jobs in the area. That's why we aim to achieve a natural growth that will allow us to not just be a builder but a major source of jobs for the area, as well. We will put a priority on sourcing our materials from nearby. And if no regional source exists, then we will vertically integrate and work towards setting up our own local production. We can imagine Rt-7 filled with facilities producing cabinets, flooring, siding, and more, allowing us more control over the cost of our homes, while exporting the labor of our area all across the Nation. What's the timeline on this? Decades... but we will reinvest every dime we make into making it a reality.</p>
+        <a class="button1" href="house.html">Learn More About Our Plans</a>
+    </div>
+    <div id="home-build">
+        <h1>Community Builders</h1>
+        <img class="framed" src="assets/house/house_15.jpg" alt="A current(ish) picture of my home progress." style="height: auto; width: 50%;" />
+        <p id="">We walk downtown all the time and we encourage others to do the same; but the state of the sidewalks can make this difficult; and it's understandable as the loss of population leads to a loss in tax base, too, making it difficult to maintain existing infrastructure. This is a major reason why one of our plans for the future is to form a non-profit called The Laurel Crown Community Builds Project. This organization would take on projects related to improving infrastructure, such as sidewalks and parks, utilizing grants, donations, and most importantly, volunteers to see this through.</p>
+        <a class="button1" href="house.html">Learn More About The Community Builds Project</a>
+    </div> -->
+            <div id="home-build">
+                <h1>Contact Me</h1>
+
+                <p id="">This does not work currently, but I am working on it.</p>
+                <div class="flex-container" style="align-items: center; margin-bottom:80px;">
+                    <img class="framed contact-pic" src="assets/inCincy.jpg" />
+
+                    <div class="form-container">
+                        <form action="action_page.php">
+
+                            <label class="form-text" for="fname">Name</label>
+                            <input type="text" id="contactname" name="fullname" placeholder="Your Name..">
+
+                            <label class="form-text" for="fname">Email (If you would like me to respond by email)</label>
+                            <input type="text" id="email" name="emailaddr" placeholder="Your Email..">
+
+                            <label class="form-text" for="fname">Phone (If you would like me to respond with a call)</label>
+                            <input type="text" id="phone" name="phonenum" placeholder="Your Phone Number..">
+
+                            <label class="form-text" for="subject">Your Message</label>
+                            <textarea id="subject" name="subject" placeholder="Dear Bryce. You look like such an ambitious young man. We would like to work with you." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
                 </div>
             </div>
-            <a class="button1" href="projects.html">See More</a>
-            </div>
-        </div>
-    </section>
-    <footer></footer>
-  
+
+</section>
+    <footer>
+        <p class="footer-text"> Website Built by Scratch by Bryce A Redmond 2025</p>
+    </footer>
+
 </body>
 </html>
