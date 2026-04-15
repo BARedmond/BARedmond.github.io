@@ -1,9 +1,31 @@
-﻿/*BARedmond*/
+﻿/*Laurel Crown*/
+
+:root{
+    /*Brand Colors*/
+    --brand-blue:#112d4e;
+    --brand-red:#4f0904;
+    --brand-gold:#d5ac5b;
+    --brand-white:#f9f5ef;
+    --brand-black:#2b2b2b;
+}
+
+
+.playfair-display-<uniquifier > {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 
 html{
     margin: 0px;
     padding: 0px;
+    color:var(--brand-black);
+    font-family: "Playfair Display";
+    font-weight: 600;
 }
+
+
 
 body
 {
@@ -21,12 +43,14 @@ h1, h2, h3{
 
 h1 {
     padding: 40px 0;
+    color: var(--brand-black);
 }
 
 h2, #introText{
     font-size: 24px;
     text-align: center;
     padding: 20px 0;
+    font-weight: 400;
 }
 
 h3 {
@@ -34,17 +58,34 @@ h3 {
     padding: 10px 0 0 0;
 }
 
-#introText{
-    padding: 0 0 20px 0;
+#introText {
+    padding: 0 10vw 20px 10vw;
+    color: var(--brand-white);
+    margin: 0;
 }
 p{
     font-size: 20px;
 }
 
 nav{
-    background-color: gray;
+    background-color: var(--brand-black);
     display: flex;
     height: 5vh;
+    z-index: 10;
+}
+
+#nav-icon {
+    float: left;
+    height:100%;
+    padding-left:16px;
+}
+
+#icon-stars g {
+    fill: var(--brand-white);
+}
+
+#icon-stars:hover g{
+    fill: var(--brand-black);
 }
 
 ul {
@@ -52,11 +93,60 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d7f9f1;
+    background-color: var(--brand-gold);
     position: fixed;
     top: 0;
     width: 100%;
+    height:5vh;
 }
+
+
+
+#name {
+    color: var(--brand-gold); 
+    font-size: 100px;
+}
+
+#logobutton {
+    width: 100px;
+}
+
+.logobox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#svg1 {
+    height: 90%;
+    padding: 0 0 0 10px;
+}
+
+.layer1 {
+    fill: #2b2b2b;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-width: 0.264583;
+    stroke-opacity: 1;
+    
+}
+
+.my-logo {
+    fill: var(--brand-gold);
+    fill-opacity: 1;
+    stroke: var(--brand-black);
+    stroke-width: 1;
+    stroke-opacity: 1;
+    padding: 0 0 0 10px;
+    height:90%;
+}
+
+#logo {
+    
+}
+
+
 
 li {
     float: right;
@@ -64,36 +154,28 @@ li {
 
     li a {
         display: block;
-        color: black;
+        color: var(--brand-black);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
     }
 
-        li a:hover:not(.active) {
-            background-color: #7aa095;
+        .nav-link:hover:not(.active) {
+            background-color: var(--brand-black);
+            color: var(--brand-white); 
             
         }
 
 .active {
-    background-color: #7aa095;
+    background-color: var(--brand-black);
+    color: var(--brand-white);
 }
 
-scroll-page, #about, #home-build, #projects {
-    background-color: lightblue;
+#scroll-page, #about, #home-build, #projects {
+    background-color: var(--brand-black);
     display: flex;
     flex-direction: column;
-    padding: 0 10vw 0 10vw;
-}
-
-#about{
-    justify-content: center;
-    background-color: #efbc9b;
-    min-height: 95vh;
-    flex-wrap: nowrap;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    padding: 0 0 0 0;
 }
 
 .framed {
@@ -106,22 +188,50 @@ scroll-page, #about, #home-build, #projects {
 .homebuildpics {
     min-width: 320px;
     width: 30vw;
-    height: auto;
-   
+    height:auto;
+}
+
+#about{
+    justify-content: center;
+    background-color: var(--brand-blue);
+    /*min-height: 95vh;*/
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*padding-top: 20px;*/
+    margin-top: 2vh;
+}
+
+#bannerlogo {
+    width: 60vw;
+    height:auto;
+    margin: auto;
+    padding: 30px;
 }
 
 #home-build {
     justify-content: center;
-    background-color: #f1f1f1;
+    background-color: var(--brand-white);
     flex-wrap: wrap;
     align-items: center;
+    padding: 0 10vw;
+    margin: 2vh 0 0 0;
+    text-align: center;
+}
+
+.break1 {
+    color: var(--brand-black);
+    width: 50%;
 }
 
 #projects {
     justify-content: center;
-    background-color: #f0e3da;
+    background-color: var(--brand-white);
     flex-wrap: wrap;
     align-content: center;
+    padding: 0 10vw;
+    margin: 2vh 0 0 0;
 }
 
 main-content{
@@ -130,7 +240,7 @@ main-content{
 }
 
 footer {
-    background-color: #7aa095;
+    background-color: var(--brand-black);
     display: flex;
     height: 5vh;
 }
@@ -155,6 +265,52 @@ footer {
     align-items: center;
 }
 
+/*Contact Form*/
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: var(--brand-red);
+    border: none;
+    color: var(--brand-white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #3a0904;
+    }
+
+/* Add a background color and some padding around the form */
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-text {
+    font-size: 20px;
+}
+
+/*End Contact Form*/
+
 .flex-projects-page {
     background-color: #f1f1f1;
     margin: 10px;
@@ -169,7 +325,7 @@ footer {
 }
 
 .flex-container > div {
-   /* background-color: #f0e3da;*/
+    background-color: var(--brand-white);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -188,7 +344,7 @@ footer {
 
 .portfolio-page {
     width: 40%;
-    padding: 10px 10px;
+    margin: 15px;
     min-width: 400px;
    
 }
@@ -203,11 +359,12 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #profile_pic{
     width: fit-content;
+    padding: 40px 0px;
 }
 
 .project-module, .project-module-1 {
@@ -226,11 +383,14 @@ footer {
     scroll-margin-top: 40px;
 }
 
+.button-container {
+    text-align: center;
+}
 
 .button1 {
-    background-color: #7aa095;
+    background-color: var(--brand-red);
     border: none;
-    color: black;
+    color: var(--brand-white);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -242,6 +402,66 @@ footer {
     border-radius: 10px;
 }
 
+.button1:hover {
+    background-color: #3a0904;
+}
+
 .background {
    background-color: #f0e3da;
 }
+
+.contact-pic {
+    height: 600px;
+    width: auto;
+}
+
+.footer-text {
+    color:var(--brand-white); 
+    margin:auto;
+    font-size:14px;
+}
+
+/*Image Carousel*/
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+    .carousel-slide img {
+        width: 100%;
+        display: block;
+    }
+
+.carousel-buttons {
+   
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-250%);
+    
+}
+
+    .carousel-buttons button {
+        background-color: rgba(0,0,0,0.5);
+        border: none;
+        color: white;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+/*End Image Carousel*/
+
