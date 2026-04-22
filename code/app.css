@@ -7,14 +7,25 @@
     --brand-gold:#d5ac5b;
     --brand-white:#f9f5ef;
     --brand-black:#2b2b2b;
+
+    --fedex-purple:#4d148c;
+    --fedex-orange:#ff6200;
+    
 }
 
 
-.playfair-display-<uniquifier > {
+/*.playfair-display-<uniquifier > {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}*/
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html{
@@ -142,9 +153,7 @@ ul {
     height:90%;
 }
 
-#logo {
-    
-}
+
 
 
 
